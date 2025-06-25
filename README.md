@@ -7,7 +7,7 @@
 
 ---
 
-![banner](img/banner.png)
+![banner](img/banner2.jpg)
 
 ---
 
