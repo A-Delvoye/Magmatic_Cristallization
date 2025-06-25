@@ -1,24 +1,41 @@
 # 🌋 Simulation de Cristallisation Fractionnée d’un Magma Basaltique
 
+![python](https://img.shields.io/badge/python-3.11-blue.svg)
+![numpy](https://img.shields.io/badge/numpy-2.3.0-blue.svg)
+![pandas](https://img.shields.io/badge/pandas-2.3.0-blue.svg)
+![matplotlib](https://img.shields.io/badge/matplotlib-3.10.3-blue.svg)
+
+---
+
+![banner](img/banner2.jpg)
+
+---
+
+## Sommaire
+- [Description](#description)
+- [Fonctionnalités](#fonctionnalités)
+- [Structure du projet](#-structure-du-projet)
+- [Fonctionnement de la simulation](#-fonctionnement-de-la-simulation)
+- [Résultat](#-résultat)
+- [Installation et exécution](#️-installation-et-exécution)
+- [Améliorations futures](#-améliorations-futures)
+- [Architecture technique](#-architecture-technique)
+- [Contact](#contact)
+
+---
+
+## Description
+
 Ce projet propose une **modélisation algorithmique de la cristallisation fractionnée** dans un magma basaltique, à l’aide de classes Python représentant les minéraux et le magma. L’évolution chimique est simulée et visualisée en fonction de la température décroissante.
 
 ---
+## Fonctionnalités
 
-## 🧪 Dépendances principales
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![NumPy](https://img.shields.io/badge/NumPy-1.26.4+-blue.svg)
-![Pandas](https://img.shields.io/badge/Pandas-2.2.3+-blue.svg)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8.4+-blue.svg)
-
-![Status](https://img.shields.io/badge/Status-Prototype-yellow.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-
----
-
-## 🧭 Objectif du projet
-
-Simuler la **cristallisation fractionnée** d’un magma de type basaltique pour observer l’évolution de sa composition chimique au cours de son refroidissement. Le projet vise à illustrer les concepts géochimiques liés à la différenciation magmatique.
+- Définition de minéraux avec plages de températures de cristallisation et compositions chimiques.
+- Modélisation de la cristallisation progressive selon la température décroissante.
+- Calcul des masses cristallisées à chaque étape.
+- Visualisation graphique de la composition chimique résiduelle en fonction de la température.
+- Sauvegarde automatique du graphique dans un dossier `img`.
 
 ---
 
@@ -107,4 +124,9 @@ python simulation.py
 
     Structure orientée objet : classes Mineral, Magma, FractionalCrystallization
 
-## Contact
+## 📬Contact
+
+Pour toute question ou suggestion :
+
+Email : delvoyeadf@gmail.com
+GitHub : @A-Delvoye
