@@ -26,6 +26,8 @@
 
 ## Description
 
+***WORK IN PROGRESS...***
+
 Ce projet propose une **modélisation algorithmique de la cristallisation fractionnée** dans un magma basaltique, à l’aide de classes Python représentant les minéraux et le magma. L’évolution chimique est simulée et visualisée en fonction de la température décroissante.
 
 ---
